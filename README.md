@@ -76,6 +76,7 @@ Kubernetes provides:
 ## K8S Architecture
 
 <img width="1278" height="611" alt="image" src="https://github.com/user-attachments/assets/70a7f173-72fe-4c07-9343-256497c9d8c0" />
+
 ### K8S Architecture
 🔷 Control Plane
 * API Server – Entry point that handles all Kubernetes requests.
