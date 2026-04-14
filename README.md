@@ -83,10 +83,12 @@ Kubernetes provides:
 * etcd – Stores the entire cluster state as a key-value database.
 * Scheduler – Assigns pods to the most suitable worker node.
 * Controller Manager – Maintains desired state by fixing differences automatically.
+
 🔷 Worker Node
 * Kubelet – Ensures containers are running correctly on each node.
 * Container Runtime – Runs containers (e.g., Docker).
 * Kube Proxy – Manages networking and enables communication between services.
+
 🔷 Pod
 * Pod – Smallest unit that runs one or more containers together.
 
