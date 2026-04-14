@@ -74,5 +74,18 @@ Kubernetes provides:
 <img width="1087" height="122" alt="image" src="https://github.com/user-attachments/assets/23e246cb-2b33-4301-a828-b1a3ee6ca79c" />
 
 ## K8S Architecture
+
 <img width="1278" height="611" alt="image" src="https://github.com/user-attachments/assets/70a7f173-72fe-4c07-9343-256497c9d8c0" />
+### K8S Architecture
+🔷 Control Plane
+* API Server – Entry point that handles all Kubernetes requests.
+* etcd – Stores the entire cluster state as a key-value database.
+* Scheduler – Assigns pods to the most suitable worker node.
+* Controller Manager – Maintains desired state by fixing differences automatically.
+🔷 Worker Node
+* Kubelet – Ensures containers are running correctly on each node.
+* Container Runtime – Runs containers (e.g., Docker).
+* Kube Proxy – Manages networking and enables communication between services.
+🔷 Pod
+* Pod – Smallest unit that runs one or more containers together.
 
